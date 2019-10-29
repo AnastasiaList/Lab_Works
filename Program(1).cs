@@ -104,9 +104,7 @@ namespace Exercise__2
                 Days_Of_Week = "Вторник",
             };
             Console.WriteLine("План рейсов на неделю:\n"); // Вывод данных
-            person_1.GetInfo();
-            person_2.GetInfo();
-            person_3.GetInfo();
+            person_1.GetInfo(); person_2.GetInfo(); person_3.GetInfo();
             Console.Write("Введите название маршрута, который вас интересует: "); // Поиск рейсов по маршруту
             string Point = Console.ReadLine();
             Console.WriteLine($"Рейсы по маршруту {Point}:\n");
