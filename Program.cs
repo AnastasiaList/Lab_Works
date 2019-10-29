@@ -12,9 +12,7 @@ namespace Exercise__1
         {
             /* Литералы */
             Console.WriteLine("Блок №1"); // Строковый литерал
-            {
-                Console.WriteLine("Блок №2");
-            }
+            {   Console.WriteLine("Блок №2");   }
             string name = "Toren";
             Console.WriteLine($"А меня зовут {name}!");
             Console.ReadKey();
